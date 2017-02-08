@@ -15,6 +15,39 @@
 	font-weight: 600;
 }
 
+.wheight500{
+	font-weight: 500;
+}
+
 .line-hei50{
 	line-height: 50px;
+}
+
+.f-color-primary{
+	color:#563d7c;
+}
+
+
+.f-size18{
+	font-size: 18px;
+}
+
+ul{
+	list-style-type: none;
+	padding:0px;
+}
+
+li{
+	display: inline-block;
+	padding: 10px 25px 10px 0px;
+	line-height: 29px;
+}
+
+nav{
+	height: 50px;
+}
+
+.intro{
+	height: 500px;
+	background-color: #563d7c;
 }
