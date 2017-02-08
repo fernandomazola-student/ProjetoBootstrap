@@ -35,19 +35,26 @@
 ul{
 	list-style-type: none;
 	padding:0px;
+	margin:0px !important;
 }
 
 li{
 	display: inline-block;
 	padding: 10px 25px 10px 0px;
-	line-height: 29px;
+
 }
 
 nav{
-	height: 50px;
+	box-sizing: border-box;
+
+
 }
 
 .intro{
 	height: 500px;
 	background-color: #563d7c;
+}
+
+a{
+	text-decoration: none !important;
 }
