@@ -28,8 +28,14 @@
 }
 
 
-.f-size18{
+.f-brand{
 	font-size: 18px;
+	padding-left:0px;
+	
+}
+
+.f-color{
+	color: #563d7c;
 }
 
 ul{
@@ -37,11 +43,12 @@ ul{
 	list-style-type: none;
 	padding:0px;
 	margin:0px !important;
+	line-height:30px;
 }
 
 li{
 	display: inline-block;
-	padding: 10px 25px 10px 0px;
+	padding: 10px 0px 10px 25px;
 
 }
 
@@ -58,4 +65,8 @@ nav{
 
 a{
 	text-decoration: none !important;
+}
+
+.navbar{
+	margin-bottom:0px;
 }
