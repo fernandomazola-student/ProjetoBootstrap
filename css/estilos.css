@@ -59,7 +59,8 @@ nav{
 }
 
 .intro{
-	height: 500px;
+	width: 100%;
+	height: auto;
 	background-color: #563d7c;
 }
 
@@ -69,4 +70,41 @@ a{
 
 .navbar{
 	margin-bottom:0px;
+}
+
+.b-style{
+	display: block;
+	width: 150px;
+	margin:70px auto 0 auto;
+	color:white;
+	border: 1px solid #fff;
+	border-radius: 15%;
+	font-size: 100px;
+	text-align: center;
+}
+
+.intro h1{
+	color:white;
+	text-align: center;
+	margin: 40px 0 0 0;
+}
+
+button.btn-down{
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 15px 30px;
+	color:white;
+	font-size:20px;
+	margin: 40px 0 0 0;
+
+}
+
+button.btn-down:hover{
+	background-color: #fff;
+	color:#563d7c;
+}
+
+p.p-intro{
+	margin:0 0 70px 0;
 }
